@@ -1,0 +1,161 @@
+body {
+  background: linear-gradient(to right, rgb(254, 240, 138), rgb(234, 179, 8));
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: linear-gradient(to right, rgb(254, 240, 138), rgb(234, 179, 8));
+}
+
+.menu-navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 0 25px;
+  background: black;
+  color: white;
+}
+
+.menu-items {
+  margin-right: 100px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 3px;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+.logo {
+  font-size: 1px;
+  overflow: hidden;
+  height: auto;
+  width: 150px;
+}
+
+
+.logo img {
+  max-width: 130px;
+  height: auto;
+}
+
+.navbar ul li {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 20px;
+  color: #ffffff;
+  display: block;
+}
+
+
+.navbar ul li a::after {
+  content: "";
+  background-color: yellow;
+  height: 3px;
+  width: 100%;
+  bottom: -10px;
+  transition: 0.5s;
+  left: 0%;
+}
+
+.navbar ul li a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #F1C376;
+  height: 3px;
+  width: 100%;
+  bottom: -10px;
+  transition: 0.5s;
+  left: 0;
+}
+
+
+.number {
+  position: absolute;
+  top: 6px;
+  right: 13px;
+  color: #fff;
+  background-color: #900C3F;
+  border-radius: 50%;
+  border: 4px solid #900C3F;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cart:hover {
+  cursor: pointer;
+  color: #F1C376;
+}
+
+
+.menu-dropdown.show .dropdown-content {
+  display: block;
+}
+
+.menu-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ea8f1f;
+  z-index: 1;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.menu-dropdown:hover .dropdown-content {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dropdown-content li {
+  padding: 12px;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #df6a17;
+}

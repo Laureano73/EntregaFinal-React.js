@@ -1,0 +1,36 @@
+/* ItemDetail.css */
+.item-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.item-card {
+    border: 5px solid #000000;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.item-title {
+    font-size: 24px;
+    color: #ff0088;
+    margin: 0;
+    text-align: center;
+}
+
+.item-image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.item-description {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
