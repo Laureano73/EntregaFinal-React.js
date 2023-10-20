@@ -1,98 +1,134 @@
 [
     {
         "id": "Hamburguesa Portenia",
+        "title": "Hamburguesa Portenia",
         "category": "Hamburguesas",
         "subCategory": "Hamburguesas",
         "price": 4500,
-        "img": "../src/assets/hamburguesaportenia.webp",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/hamburguesaportenia.webp",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 1
     },
     {
         "id": "Hamburguesa Italiana",
+        "title": "Hamburguesa Italiana",
         "category": "Hamburguesas",
         "subCategory": "Hamburguesas",
         "price": 4800,
-        "img": "../src/assets/hamburguesaitaliana.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/hamburguesaitaliana.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 2
     },
     {
         "id": "Hamburguesa Espaniola",
+        "title": "Hamburguesa Espaniola",
         "category": "Hamburguesas",
         "subCategory": "Hamburguesas",
         "price": 4300,
-        "img": "../src/assets/hamburguesaespaniola.webp",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/hamburguesaespaniola.webp",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 3
     },
     {
         "id": "Hamburguesa Griega",
+        "title": "Hamburguesa griega",
         "category": "Hamburguesas",
         "subCategory": "Hamburguesas",
         "price": 5200,
-        "img": "../src/assets/hamburguesagriega.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/hamburguesagriega.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 4
     },
     {
         "id": "Papas simples",
+        "title": "Papas simples",
         "category": "Papas",
         "subCategory": "Papas",
         "price": 2000,
-        "img": "../src/assets/papassimples.webp",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/papassimples.webp",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 5
     },
     {
         "id": "Papas con cheddar",
+        "title": "Papas con cheddar",
         "category": "Papas",
         "subCategory": "Papas",
         "price": 2500,
-        "img": "../src/assets/papasconcheddar.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/papasconcheddar.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 6
     },
     {
         "id": "Papas completas",
+        "title": "Papas completas",
         "category": "Papas",
         "subCategory": "Papas",
         "price": 3000,
-        "img": "../src/assets/papascompletas.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/papascompletas.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 7
     },
     {
         "id": "Papas con salsas",
+        "title": "Papas con salsas",
         "category": "Papas",
         "subCategory": "Papas",
         "price": 2300,
-        "img": "../src/assets/papasconsalsas.webp",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/papasconsalsas.webp",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 8
     },
     {
         "id": "Coca",
+        "title": "Coca",
         "category": "Gaseosas",
         "subCategory": "Gaseosas",
         "price": 800,
-        "img": "../src/assets/coca.webp",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/coca.webp",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 9
     },
     {
         "id": "Pepsi",
+        "title": "Pepsi",
         "category": "Gaseosas",
         "subCategory": "Gaseosas",
         "price": 800,
-        "img": "../src/assets/pepsi.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/pepsi.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 10
     },
     {
         "id": "Fanta",
+        "title": "Fanta",
         "category": "Gaseosas",
         "subCategory": "Gaseosas",
         "price": 800,
-        "img": "../src/assets/fanta.jpg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/fanta.jpg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 11
     },
     {
         "id": "Sprite",
+        "title": "Sprite",
         "category": "Gaseosas",
         "subCategory": "Gaseosas",
         "price": 800,
-        "img": "../src/assets/sprite.jpeg",
-        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet."
+        "img": "/src/assets/sprite.jpeg",
+        "description": "La Hamburguesa Porteña como la reina indiscutible de las hamburguesas gourmet.",
+        "stock": 10,
+        "orden": 12
     }
 ]

@@ -1,0 +1,39 @@
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.item-count button {
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid var(--clr-main);
+    background-color: rgb(162, 32, 238);
+}
+
+
+.item-count button:hover, .agregar-al-carrito:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.agregar-al-carrito {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(165, 53, 230);
+}

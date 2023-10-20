@@ -3,7 +3,7 @@ import './NavBar.css';
 import CartWidget from '../CartWidget/CartWidget';
 import {Link} from 'react-router-dom'
 
-const Navbar = (props) => {
+function Navbar () {
   const [showProductsMenu, setShowProductsMenu] = useState(false);
 
   const handleMouseEnter = () => {
@@ -26,23 +26,13 @@ const Navbar = (props) => {
               <li>
                 <Link to = {'/'}>Inicio</Link>
               </li>
-              <li
-                className={`menu-dropdown ${showProductsMenu ? 'show' : ''}`}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-              >
-                <a href="#">Productos</a>
-                <ul className={`dropdown-content ${showProductsMenu ? 'show' : ''}`}>
-                  <li><Link to = {'/category/Hamburguesas'}>Hamburguesas</Link></li>
-                  <li><Link to = {'/category/Papas'}>Papas</Link></li>
-                  <li><Link to = {'/category/Gaseosas'}>Gaseosas</Link></li>
-                </ul>
+              <li><Link to = {'/category/Hamburguesas'}>Hamburguesas</Link>
               </li>
               <li>
-              <li><Link to = {'/category/Papas'}>Papas</Link></li>
+              <Link to = {'/category/Papas'}>Papas</Link>
               </li>
               <li>
-              <li><Link to = {'/category/Gaseosas'}>Gaseosas</Link></li>
+              <Link to = {'/category/Gaseosas'}>Gaseosas</Link>
               </li>
             </div>
           </ul>
@@ -54,3 +44,4 @@ const Navbar = (props) => {
 };
 
 export default Navbar;
+
