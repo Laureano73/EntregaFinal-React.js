@@ -1,8 +1,19 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LaureShop Comida Rapida React.js
 
-Currently, two official plugins are available:
+Hola esta es mi pagina web de comida rapida y mi proyecto final de React.js, este mismo esta hecho con Vite + React usando JSX y CSS sin bibliotecas de estilos y firebase como backend para la parte de base de datos.
+Para entrar a la tienda visitar el enlace de vercel en mi repositorio de Github.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Firebase para la base de datos
+
+Hook form para hacer mi formulario
+
+Sweetalert2 para la confirmacion de compra
+
+## Features
+
+- Categorías de productos navegables.
+- Agregar y quitar productos del carrito.
+- Formulario de finalizacion de Compra
+- Vista previa del Producto con Stock implementado
+
